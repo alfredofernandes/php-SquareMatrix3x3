@@ -49,9 +49,10 @@
 			<h1 class="display-5">Matrix Assignment</h1>
 			<h4 class="display-5">Results</h4>
 			<p>-</p>
-			<div class="alert alert-danger" role="alert">
-  				<strong>Oh snap!</strong>I guess you let some field in blank :(
+			<div class="alert alert-danger" role="alert" style="width: 390px; margin: auto">
+  				<strong>Oh snap!</strong> I guess you let some field in blank :(
 			</div>
+			<br>
 
 	<?php
 	
@@ -66,7 +67,7 @@
 		}
 	?>
 
-	<a class="btn btn-primary" href="index.html" role="button">Back to Index</a>	
+	<a class="btn btn-warning" href="index.html" role="button">Back to Index</a>	
 
 </body>
 </html>

@@ -36,13 +36,8 @@
 				
 				for ($col = 0; $col < 3; $col++) {
 	
-					if ($row == $col) {
-						$resultMainDiagonal += $firstMatrix[$row][$col];
-					}
-	
-					if (($row == 0 && $col == 2) || ($row == 1 && $col == 1) || ($row == 2 && $col == 0)) {
-						$resultSecondDiagonal += $firstMatrix[$row][$col];
-					}
+					$resultSum += ($firstMatrix[$row][$col] + $secondMatrix[$row][$col]);
+
 				}
 			}
 	?>
@@ -76,7 +71,7 @@
 		}
 	?>
 
-	<a class="btn btn-primary" href="index.html" role="button">Back to Index</a>	
+	<a class="btn btn-warning" href="index.html" role="button">Back to Index</a>	
 
 </body>
 </html>

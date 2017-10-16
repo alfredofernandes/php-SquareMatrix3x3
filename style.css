@@ -12,3 +12,7 @@ body {
     margin: 0 auto;
     max-width: 20%;
 }
+
+.btn-primary, .btn-warning {
+    cursor: pointer;
+}

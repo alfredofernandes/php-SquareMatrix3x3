@@ -5,8 +5,8 @@
 Using a web interface, allow web users to enter the 9 values of a Square Matrix M 3x3. 
 On the server side, in PHP, you have to calculate:
 
-Main Diagonal (MD) = M[0][0] + M[1][1] + M[2][2]. 
-Second Diagonal (SD) -> your job to figure it out.
+- Main Diagonal (MD) = M[0][0] + M[1][1] + M[2][2]. 
+- Second Diagonal (SD) = your job to figure it out.
 
 **Part II**
 

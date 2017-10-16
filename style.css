@@ -13,6 +13,6 @@ body {
     max-width: 20%;
 }
 
-.btn-primary, .btn-warning {
+.btn-primary:hover, .btn-warning:hover {
     cursor: pointer;
 }

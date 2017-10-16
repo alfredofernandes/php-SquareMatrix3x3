@@ -52,7 +52,7 @@
 			<div class="alert alert-danger" role="alert" style="width: 390px; margin: auto">
   				<strong>Oh snap!</strong> I guess you let some field in blank :(
 			</div>
-			<br>
+			<br>	
 
 	<?php
 	

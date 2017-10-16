@@ -16,10 +16,10 @@
 			$resultMainDiagonal = 0;
 			$resultSecondDiagonal = 0;
 
-			$firstMatrix = array (
+			$matrix = array (
 				array($_POST['a00'], $_POST['a01'], $_POST['a02']),
 				array($_POST['a10'], $_POST['a11'], $_POST['a12']),
-				array($_POST['a20'], $_POST['a21'], $_POST['a22']),
+				array($_POST['a20'], $_POST['a21'], $_POST['a22'])
 			);
 		
 			for ($row = 0; $row < 3; $row++) {
@@ -27,11 +27,11 @@
 				for ($col = 0; $col < 3; $col++) {
 	
 					if ($row == $col) {
-						$resultMainDiagonal += $firstMatrix[$row][$col];
+						$resultMainDiagonal += $matrix[$row][$col];
 					}
 	
 					if (($row == 0 && $col == 2) || ($row == 1 && $col == 1) || ($row == 2 && $col == 0)) {
-						$resultSecondDiagonal += $firstMatrix[$row][$col];
+						$resultSecondDiagonal += $matrix[$row][$col];
 					}
 				}
 			}

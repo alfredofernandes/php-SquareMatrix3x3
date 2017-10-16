@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html>
-</<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <title>Square Matrix 3x3</title>
-</head>
-<body>
-    <h1>Calculate Square Matrix 3x3</h1>
-    <form id="form1" action="calculate.php" method="post">
-        <input type="text" id="a0" name="a0">
-        <input type="text" id="a1" name="a1">
-        <input type="text" id="a2" name="a2">
-        <br>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <input type="text" id="b0" name="b0">
-        <input type="text" id="b1" name="b1">
-        <input type="text" id="b2" name="b2">
-        <br>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-auto">
+                <?php 
+                    if (isset($_GET['link']) && ($_GET['link'] == 'diagonalCalculate')) {
+                        require_once('diagonalCalculate.php');
+                        
+                    } elseif (isset($_GET['link']) && ($_GET['link'] == 'sumCalculate')) {
+                        require_once('sumCalculate.php');
+                        
+                    } elseif (isset($_GET['link']) && ($_GET['link'] == 'productCalculate')) {
+                        require_once('productCalculate.php');
+                        
+                    } else { ?> 
+                        <br>
+                        <a href="?link=diagonalCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Diagonal</a>
+                        <a href="?link=sumCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Sum</a>
+                        <a href="?link=productCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Product</a>
+                <?php } ?>
+            </div>
+        </div>
+    </div>
 
-        <input type="text" id="c0" name="c0">
-        <input type="text" id="c1" name="c1">
-        <input type="text" id="c2" name="c2">
-        <br>
-
-        <button name="Calculate" type="submit" value="Calculate">Calculate</button>
-    </form>
 </body>
 </html>

@@ -1,3 +1,5 @@
+![]({{site.baseurl}}/https://in.momath.org/sites/default/files/civicrm/persist/contribute/images/MATRIX%20logo%20bg.png)
+
 ## 3x3 Square Matrix in PHP
 
 **Part I**

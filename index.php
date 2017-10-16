@@ -19,14 +19,13 @@
                     } elseif (isset($_GET['link']) && ($_GET['link'] == 'sumCalculate')) {
                         require_once('sumCalculate.php');
                         
-                    } elseif (isset($_GET['link']) && ($_GET['link'] == 'productCalculate')) {
-                        require_once('productCalculate.php');
+                    } elseif (isset($_GET['link']) && ($_GET['link'] == 'sumProductCalculate')) {
+                        require_once('sumProductCalculate.php');
                         
                     } else { ?> 
                         <br>
                         <a href="?link=diagonalCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Diagonal</a>
-                        <a href="?link=sumCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Sum</a>
-                        <a href="?link=productCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Product</a>
+                        <a href="?link=sumProductCalculate" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Calculate Sum and Product</a>
                 <?php } ?>
             </div>
         </div>

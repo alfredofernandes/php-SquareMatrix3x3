@@ -2,14 +2,14 @@
     require_once('functions/validateInput.php');
     require_once('functions/matrixCalculate.php');
     
-    if(validate($_POST['a0']) && validate($_POST['a1']) && validate($_POST['a2']) &&
-       validate($_POST['b0']) && validate($_POST['b1']) && validate($_POST['b2']) &&
-       validate($_POST['c0']) && validate($_POST['c1']) && validate($_POST['c2'])) {
+    if(validate($_POST['a00']) && validate($_POST['a01']) && validate($_POST['a02']) &&
+       validate($_POST['a10']) && validate($_POST['a11']) && validate($_POST['a12']) &&
+       validate($_POST['a20']) && validate($_POST['a21']) && validate($_POST['a22'])) {
 
         $matrix = array(
-            array($_POST['a0'], $_POST['a1'], $_POST['a2']),
-            array($_POST['b0'], $_POST['b1'], $_POST['b2']),
-            array($_POST['c0'], $_POST['c1'], $_POST['c2'])
+            array($_POST['a00'], $_POST['a01'], $_POST['a02']),
+            array($_POST['a10'], $_POST['a11'], $_POST['a12']),
+            array($_POST['a20'], $_POST['a21'], $_POST['a22'])
         );
         
         $resultMain = mainDiagonalCalculate($matrix);

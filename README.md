@@ -1,4 +1,4 @@
-**3x3 Square Matrix in PHP**
+## 3x3 Square Matrix in PHP
 
 **Part I**
 

@@ -62,19 +62,19 @@
     <table class="table table-bordered" style="margin: auto">
         <tbody>
             <tr>
-                <td><?php echo $matrixA[0][0] * $matrixB[0][0] + $matrixA[0][1] * $matrixB[1][0] + $matrixA[0][2] * $matrixB[2][0] ?></td>
-                <td><?php echo $matrixA[0][0] * $matrixB[0][1] + $matrixA[0][1] * $matrixB[1][1] + $matrixA[0][2] * $matrixB[2][1] ?></td>
-                <td><?php echo $matrixA[0][0] * $matrixB[0][2] + $matrixA[0][1] * $matrixB[1][2] + $matrixA[0][2] * $matrixB[2][2] ?></td>
+                <td><?php echo ($matrixA[0][0] * $matrixB[0][0]) + ($matrixA[0][1] * $matrixB[1][0]) + ($matrixA[0][2] * $matrixB[2][0]); ?></td>
+                <td><?php echo ($matrixA[0][0] * $matrixB[0][1]) + ($matrixA[0][1] * $matrixB[1][1]) + ($matrixA[0][2] * $matrixB[2][1]); ?></td>
+                <td><?php echo ($matrixA[0][0] * $matrixB[0][2]) + ($matrixA[0][1] * $matrixB[1][2]) + ($matrixA[0][2] * $matrixB[2][2]); ?></td>
             </tr>
             <tr>
-                <td><?php echo $matrixA[1][0] * $matrixB[0][0] + $matrixA[1][1] * $matrixB[1][0] + $matrixA[1][2] * $matrixB[2][0] ?></td>
-                <td><?php echo $matrixA[1][0] * $matrixB[0][1] + $matrixA[1][1] * $matrixB[1][1] + $matrixA[1][2] * $matrixB[2][1] ?></td>
-                <td><?php echo $matrixA[1][0] * $matrixB[0][2] + $matrixA[1][1] * $matrixB[1][2] + $matrixA[1][2] * $matrixB[2][2] ?></td>
+                <td><?php echo ($matrixA[1][0] * $matrixB[0][0]) + ($matrixA[1][1] * $matrixB[1][0]) + ($matrixA[1][2] * $matrixB[2][0]); ?></td>
+                <td><?php echo ($matrixA[1][0] * $matrixB[0][1]) + ($matrixA[1][1] * $matrixB[1][1]) + ($matrixA[1][2] * $matrixB[2][1]); ?></td>
+                <td><?php echo ($matrixA[1][0] * $matrixB[0][2]) + ($matrixA[1][1] * $matrixB[1][2]) + ($matrixA[1][2] * $matrixB[2][2]); ?></td>
             </tr>
             <tr>
-                <td><?php echo $matrixA[2][0] * $matrixB[0][0] + $matrixA[2][1] * $matrixB[1][0] + $matrixA[2][2] * $matrixB[2][0] ?></td>
-                <td><?php echo $matrixA[2][0] * $matrixB[0][1] + $matrixA[2][1] * $matrixB[1][1] + $matrixA[2][2] * $matrixB[2][1] ?></td>
-                <td><?php echo $matrixA[2][0] * $matrixB[0][2] + $matrixA[2][1] * $matrixB[1][2] + $matrixA[2][2] * $matrixB[2][2] ?></td>
+                <td><?php echo ($matrixA[2][0] * $matrixB[0][0]) + ($matrixA[2][1] * $matrixB[1][0]) + ($matrixA[2][2] * $matrixB[2][0]); ?></td>
+                <td><?php echo ($matrixA[2][0] * $matrixB[0][1]) + ($matrixA[2][1] * $matrixB[1][1]) + ($matrixA[2][2] * $matrixB[2][1]); ?></td>
+                <td><?php echo ($matrixA[2][0] * $matrixB[0][2]) + ($matrixA[2][1] * $matrixB[1][2]) + ($matrixA[2][2] * $matrixB[2][2]); ?></td>
             </tr>
         </tbody>
     </table>

@@ -59,8 +59,8 @@
         <button type="submit" class="btn btn-primary btn-lg btn-block">Calculate</button>
     </form>
         
-        <br>
-        <?php require_once('sumProductResult.php'); ?>
+    <br>
+    <?php require_once('sumProductResult.php'); ?>
 </div>
 
 <br>

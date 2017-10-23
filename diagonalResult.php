@@ -11,6 +11,8 @@
     
     if(validadeInput($matrix)) 
     {
+        echo validadeInput($matrix);
+        
         $resultMain = mainDiagonalCalculate($matrix);
         $resultSecond = secondDiagonalCalculate($matrix);
     ?>

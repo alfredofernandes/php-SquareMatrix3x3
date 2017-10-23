@@ -11,9 +11,9 @@
         }
     }
 
-    function validade($value)
+    function validade($value = null)
     {
-        if (isset($value) && ($value != null)) {
+        if (isset($value) && ($value == null)) {
             return true;
         }
         return false;

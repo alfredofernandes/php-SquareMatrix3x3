@@ -1,10 +1,20 @@
 <?php
     // Validate inputs
-    function validate($value) 
+    function validadeInput($valueArray) 
     {
-        if(isset($value) && ($value != null))
+        foreach($valueArray as $index => $value) 
         {
-            return true;
+            foreach($value as $k => $v) 
+            {
+                return validade($v);
+            }
         }
-        return false;
+    }
+
+    function validade($value)
+    {
+        if (!isset($value) && ($value == null) && (!gettype($value) == 'integer')) {
+            return false;
+        }
+        return true;
     }

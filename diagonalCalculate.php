@@ -6,23 +6,23 @@
 
         <div class="form-group form-inline">
             <div class="col-12">
-                <input class="form-control" type="number" id="example-number-input" name="a00">
-                <input class="form-control" type="number" id="example-number-input" name="a01">
-                <input class="form-control" type="number" id="example-number-input" name="a02">
+                <input class="form-control" type="number" id="example-number-input" name="r0c0">
+                <input class="form-control" type="number" id="example-number-input" name="r0c1">
+                <input class="form-control" type="number" id="example-number-input" name="r0c2">
             </div>
         </div>
         <div class="form-group form-inline">
             <div class="col-12">
-                <input class="form-control" type="number" id="example-number-input" name="a10">
-                <input class="form-control" type="number" id="example-number-input" name="a11">
-                <input class="form-control" type="number" id="example-number-input" name="a12">
+                <input class="form-control" type="number" id="example-number-input" name="r1c0">
+                <input class="form-control" type="number" id="example-number-input" name="r1c1">
+                <input class="form-control" type="number" id="example-number-input" name="r1c2">
             </div>
         </div>
         <div class="form-group form-inline">
             <div class="col-12">
-                <input class="form-control" type="number" id="example-number-input" name="a20">
-                <input class="form-control" type="number" id="example-number-input" name="a21">
-                <input class="form-control" type="number" id="example-number-input" name="a22">
+                <input class="form-control" type="number" id="example-number-input" name="r2c0">
+                <input class="form-control" type="number" id="example-number-input" name="r2c1">
+                <input class="form-control" type="number" id="example-number-input" name="r2c2">
             </div>
         </div>
 

@@ -1,36 +1,25 @@
 <?php
     // Calculate Main Diagonal
-    function mainDiagonalCalculate($matrix) 
+    function mainDiagonalCalculate($matrix)
     {
+        $num = count($matrix);
         $result = 0;
-
-        for ($row = 0; $row < 3; $row++) 
-        {
-            for ($col = 0; $col < 3; $col++) 
-            {
-                if (($row == 0 && $col == 0) || ($row == 1 && $col == 1) || ($row == 2 && $col == 2)) 
-                {
-                    $result += $matrix[$row][$col];
-                }
-            }
+        
+        for ($row = 0; $row < $num; $row++) {
+            $result += $matrix[$row][$row];
         }
         return $result;
     }
 
     // Calculate Second Diagonal
-    function secondDiagonalCalculate($matrix) 
+    function secondDiagonalCalculate($matrix)
     {
+        $num = count($matrix);
         $result = 0;
 
-        for ($row = 0; $row < 3; $row++) 
-        {
-            for ($col = 0; $col < 3; $col++) 
-            {
-                if (($row == 0 && $col == 2) || ($row == 1 && $col == 1) || ($row == 2 && $col == 0)) 
-                {
-                    $result += $matrix[$row][$col];
-                }
-            }
+        for ($row = 0; $row < $num; $row++) {
+            $result += $matrix[$row][$num - $row - 1];
         }
+
         return $result;
     }

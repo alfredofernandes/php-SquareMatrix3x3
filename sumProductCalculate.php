@@ -59,8 +59,8 @@
 
     <button type="submit" class="btn btn-primary btn-lg btn-block">Calculate</button>
 </form>
-        
+
 <br>
 <div class="col-12">
-    <a href="?link=home" class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Back</a>
+    <a href="?link=home" class="btn btn-warning btn-lg active" role="button" aria-pressed="true">Back to Home</a>
 </div>
